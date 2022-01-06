@@ -1,6 +1,6 @@
 object Window1: TWindow1
-  Left = 969
-  Top = 360
+  Left = 441
+  Top = 141
   Width = 419
   Height = 642
   Cursor = crHandPoint
@@ -31,6 +31,8 @@ object Window1: TWindow1
       OnClick = Pr1Click
     end
     object Edycja1: TMenuItem
+      Caption = 'M'#243'j LinkedIn'
+      OnClick = Edycja1Click
     end
   end
 end

@@ -16,6 +16,7 @@ __published:	// IDE-managed Components
         TMenuItem *Pr1;
         TMenuItem *Edycja1;
         void __fastcall Pr1Click(TObject *Sender);
+        void __fastcall Edycja1Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
         __fastcall TWindow1(TComponent* Owner);

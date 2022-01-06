@@ -30,3 +30,10 @@ void __fastcall TWindow1::Pr1Click(TObject *Sender)
         ShellExecute(NULL, "open", "https://github.com/TomaszGorecki1", NULL, NULL, SW_SHOWNORMAL); // By clicking on button it redirect you to my github page
 }
 //---------------------------------------------------------------------------
+
+void __fastcall TWindow1::Edycja1Click(TObject *Sender)
+{
+   ShellExecute(NULL, "open", "https://www.linkedin.com/in/tomasz-g%C3%B3recki-66969a22a/", NULL, NULL, SW_SHOWNORMAL); // By clicking on button it redirect you to my LinkedIn page
+}
+//---------------------------------------------------------------------------
+
